@@ -1,9 +1,11 @@
 package com.robocode.alunos;
 
+import java.awt.Color;
+
 import robocode.*;
 
 /**
- * Robô Julia - Implementação do Trabalho de condicional
+ * Robô André - Implementação do Trabalho de condicional
  * 
  * Este robô foi desenvolvido para atender aos seguintes requisitos:
  * 
@@ -15,7 +17,7 @@ import robocode.*;
  * ✅ Após o robô ficar parado a força do tiro deve aumentar em 1, após isso, se a força for igual ou maior que 5 deve-se definir a força para 1.
  * 
  * 
- * @author Julia
+ * @author André Felipe Bürger
  * @version 1.0
  */
 public class Andre extends Robot {
@@ -56,7 +58,7 @@ public class Andre extends Robot {
     @Override
     public void run() {
         // Configuração inicial (descomente para personalizar cores)
-        // setColors(Color.RED, Color.BLUE, Color.GREEN); // corpo, canhão, radar
+        setColors(Color.GREEN, Color.GRAY, Color.BLACK); // corpo, canhão, radar
         
         // Loop principal da batalha
         while (true) {
