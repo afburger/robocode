@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+
+# IDE Files
+.vscode/
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Maven
+target/
